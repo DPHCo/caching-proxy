@@ -19,8 +19,8 @@ This is a proxy application with a caching system that acts as an intermediary b
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <directory-name>
+git clone https://github.com/DPHCo/caching-proxy.git
+cd caching-proxy
 ```
 
 2. Install dependencies:
@@ -35,7 +35,7 @@ The application can be started with different configuration parameters:
 ### Basic Parameters
 
 ```bash
-npm start -- --port <number> --origin <url>
+caching-proxy --port <number> --origin <url>
 ```
 
 ### Available Parameters
